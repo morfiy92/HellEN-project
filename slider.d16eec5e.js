@@ -130,7 +130,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 4000,
     responsive: [{
-      breakpoint: 767,
+      breakpoint: 768,
       settings: {
         arrows: false,
         dots: false,
@@ -141,7 +141,7 @@ $(document).ready(function () {
   });
   $('.small-slider').slick({
     responsive: [{
-      breakpoint: 767,
+      breakpoint: 768,
       settings: {
         adaptiveHeight: true,
         slidesToShow: 3,
@@ -156,7 +156,98 @@ $(document).ready(function () {
       }
     }]
   });
-});
+}); // slide-1---------------------------------------------------------------
+
+;
+
+(function () {
+  var menuBtnRef = document.querySelector("[feedback-switch-button-1]");
+  var mobileMenuRef = document.querySelector("[feedback-text-1]");
+  menuBtnRef.addEventListener("click", function () {
+    var expanded = menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+    menuBtnRef.classList.toggle("feedback-open");
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
+    mobileMenuRef.classList.toggle("feedback-open");
+  });
+})() //  -------------------------------
+// slide-2---------------------------------------------------------------
+;
+
+(function () {
+  var menuBtnRef = document.querySelector("[feedback-switch-button-2]");
+  var mobileMenuRef = document.querySelector("[feedback-text-2]");
+  menuBtnRef.addEventListener("click", function () {
+    var expanded = menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+    menuBtnRef.classList.toggle("feedback-open");
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
+    mobileMenuRef.classList.toggle("feedback-open");
+  });
+})() //  -------------------------------
+// slide-3---------------------------------------------------------------
+;
+
+(function () {
+  var menuBtnRef = document.querySelector("[feedback-switch-button-3]");
+  var mobileMenuRef = document.querySelector("[feedback-text-3]");
+  menuBtnRef.addEventListener("click", function () {
+    var expanded = menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+    menuBtnRef.classList.toggle("feedback-open");
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
+    mobileMenuRef.classList.toggle("feedback-open");
+  });
+})() //  -------------------------------
+// slide-4---------------------------------------------------------------
+;
+
+(function () {
+  var menuBtnRef = document.querySelector("[feedback-switch-button-4]");
+  var mobileMenuRef = document.querySelector("[feedback-text-4]");
+  menuBtnRef.addEventListener("click", function () {
+    var expanded = menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+    menuBtnRef.classList.toggle("feedback-open");
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
+    mobileMenuRef.classList.toggle("feedback-open");
+  });
+})() //  -------------------------------
+// slide-5---------------------------------------------------------------
+;
+
+(function () {
+  var menuBtnRef = document.querySelector("[feedback-switch-button-5]");
+  var mobileMenuRef = document.querySelector("[feedback-text-5]");
+  menuBtnRef.addEventListener("click", function () {
+    var expanded = menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+    menuBtnRef.classList.toggle("feedback-open");
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
+    mobileMenuRef.classList.toggle("feedback-open");
+  });
+})() //  -------------------------------
+// slide-6---------------------------------------------------------------
+;
+
+(function () {
+  var menuBtnRef = document.querySelector("[feedback-switch-button-6]");
+  var mobileMenuRef = document.querySelector("[feedback-text-6]");
+  menuBtnRef.addEventListener("click", function () {
+    var expanded = menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+    menuBtnRef.classList.toggle("feedback-open");
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
+    mobileMenuRef.classList.toggle("feedback-open");
+  });
+})() //  -------------------------------
+// slide-7---------------------------------------------------------------
+;
+
+(function () {
+  var menuBtnRef = document.querySelector("[feedback-switch-button-7]");
+  var mobileMenuRef = document.querySelector("[feedback-text-7]");
+  menuBtnRef.addEventListener("click", function () {
+    var expanded = menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+    menuBtnRef.classList.toggle("feedback-open");
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
+    mobileMenuRef.classList.toggle("feedback-open");
+  });
+})(); //  -------------------------------
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -185,7 +276,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60152" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59569" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
