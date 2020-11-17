@@ -1373,13 +1373,23 @@ img {
 }
 .program {
   counter-reset: section;
-  padding: 50px 0;
+  padding: 50px 0 25px 0;
   background-color: #111518;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .program h3::before {
   position: static;
   counter-increment: section;
   content: counter(section) " ";
+}
+.program-container {
+  position: relative;
+}
+.program-image {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
 }
 .program-all {
   padding: 0 70px;
@@ -1478,7 +1488,11 @@ img {
 }
 @media screen and (min-width: 768px) {
   .program {
-    padding: 60px 0;
+    padding: 60px 0 94px 0;
+  }
+  .program-image {
+    bottom: -160px;
+    right: 0;
   }
   .program-all {
     padding: 0 90px;
@@ -1516,7 +1530,11 @@ img {
 }
 @media screen and (min-width: 1316px) {
   .program {
-    padding: 120px 0;
+    padding: 120px 0 82px 0;
+  }
+  .program-image {
+    bottom: -300px;
+    left: -210px;
   }
   .program {
     position: relative;
