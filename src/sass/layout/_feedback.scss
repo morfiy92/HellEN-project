@@ -343,10 +343,14 @@
     cursor: pointer;
   }
   & li:nth-child(1) button::after {
-    background-image: url('../images/feedback/big-slide-1.jpg');
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url('../images/feedback/anna/anna-icon-108x108@2x.jpg');
   }
   & li:nth-child(2) button::after {
-    background-image: url('../images/feedback/big-slide-2.jpg');
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url('../images/feedback/lena/lena-icon-108x108@2x.jpg');
   }
   & li:nth-child(3) button::after {
     background-size: cover;
