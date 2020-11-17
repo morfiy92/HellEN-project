@@ -1,6 +1,7 @@
 .guarantee {
-  display: block;
-  padding-bottom: 31px;
+  padding-top: 50px;
+  background-color: #E5E5E5;
+
 
   &-title {
     @extend %title;
@@ -42,13 +43,14 @@
 
       background-image: url('../images/header_footer/campfire.svg');
       background-size: contain;
+      background-repeat: no-repeat;
+
     }
   }
 }
 
 @media screen and (min-width: 768px) {
   .guarantee {
-    padding-bottom: 80px;
 
     &-item:not(:last-child) {
       padding-bottom: 23px;
@@ -63,7 +65,7 @@
 
 @media screen and (min-width: 1316px) {
   .guarantee {
-    padding-bottom: 175px;
+    padding-top: 130px;
 
     &-list {
       padding-left: 81px;
