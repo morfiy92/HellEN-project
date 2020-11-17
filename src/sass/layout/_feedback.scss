@@ -358,10 +358,14 @@
     background-image: url('../images/feedback/igor/igor-icon-108x108@2x.jpg');
   }
   & li:nth-child(4) button::after {
-    background-image: url('../images/feedback/big-slide-4.jpg');
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url('../images/feedback/tatiana/tatiana-icon-108x108@2x.jpg');
   }
   & li:nth-child(5) button::after {
-    background-image: url('../images/feedback/big-slide-5.jpg');
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url('../images/feedback/tanya/tanya-icon-108x108@2x.jpg');
   }
   & li:nth-child(6) button::after {
     background-image: url('../images/feedback/big-slide-6.jpg');
