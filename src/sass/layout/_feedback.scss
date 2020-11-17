@@ -349,7 +349,9 @@
     background-image: url('../images/feedback/big-slide-2.jpg');
   }
   & li:nth-child(3) button::after {
-    background-image: url('../images/feedback/big-slide-3.jpg');
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url('../images/feedback/igor/igor-icon-108x108@2x.jpg');
   }
   & li:nth-child(4) button::after {
     background-image: url('../images/feedback/big-slide-4.jpg');
