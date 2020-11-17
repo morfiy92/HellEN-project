@@ -42,12 +42,33 @@
       transform: translate(-50%, 0%);
 
       background-image: url('../images/header_footer/campfire.svg');
+
       background-size: contain;
       background-repeat: no-repeat;
+    }
 
+    &:hover::before,
+    &:focus::before {
+      animation: animate125 1000ms infinite 10ms;
     }
   }
 }
+
+
+@keyframes animate125 {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.25);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 @media screen and (min-width: 768px) {
   .guarantee {
