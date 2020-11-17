@@ -31,7 +31,7 @@
     </main>
       <include src="./partials/footer.html"></include>
       <include src="./partials/modal.html"></include>
-      <a href="#" class="scrollup">Наверх</a>
+      <a href="#" class="scrollup"></a>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <!-- Библиотека -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -43,24 +43,7 @@
     <script src="./js/modal.js"></script>
     <script src="./js/header-menu.js"></script>
     <script src="./js/menu-scroll.js"></script>
+    <script src="./js/scrollup.js"></script>
     <!-- скрипт кнопки возвращения на верх -->
-    <script type="text/javascript">
-      $(document).ready(function(){
-        
-          $(window).scroll(function(){
-              if ($(this).scrollTop() > 100) {
-                  $('.scrollup').fadeIn();
-              } else {
-                  $('.scrollup').fadeOut();
-              }
-              });
-                
-              $('.scrollup').click(function(){
-              $("html, body").animate({ scrollTop: 0 }, 600);
-              return false;
-          });
-        
-      });
-      </script>
   </body>
 </html>
